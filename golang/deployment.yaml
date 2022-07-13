@@ -31,7 +31,7 @@ spec:
            valueFrom:
             secretKeyRef:
               key: test
-              name: db-secret
+              name: db-secret-golang
         readinessProbe:
           httpGet:
             path: /
