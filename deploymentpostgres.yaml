@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: postgres-deployment
-  namespace: newnamespace
+  # namespace: newnamespace
   labels:
     app: postgres
 spec:
